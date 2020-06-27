@@ -1,0 +1,133 @@
+nav.loginAlper
+{
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding: 50px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background: #fbfbfb;
+}
+
+nav.loginAlper > div.container 
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+    height: 60vh;
+    background: #ffffffd9;
+    border: 3px solid #f7f7f763;
+    padding: 30px;
+    box-shadow: 0 5px 15px -5px #d6d6d6;
+}
+.logoAlper, .form 
+{
+    height: 180px;
+}
+.botaoVoltar 
+{
+    width: 37vw;
+    display: flex;
+    justify-content: flex-end;
+    height: 40px;
+    align-items: flex-end;
+    text-decoration: none;
+    position: relative;
+    top: 12px;
+    right: 21px;
+}
+
+.botaoVoltar a 
+{
+    color: #ffffff;
+    background: #2f89a5;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 5px 15px -5px #bdbdbd;
+}
+
+.campoDeLogin 
+{
+    height: 200px;
+}
+
+form#formLogin 
+{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+
+.row-form 
+{
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.row-form label 
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #2f89a5;
+}
+
+.row-form input 
+{
+    width: 100%;
+    height: 35px;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid #2f89a5;
+    transition: 0.6s cubic-bezier(0,0.6,0.35,1.21) transform, 0.2s ease opacity;
+    opacity: 0.80;
+}
+
+.row-form input:focus 
+{
+    color: #2f89a5;
+    transition: 0.6s;
+    transform: translate(0, -10px);
+    opacity: 1;
+}
+
+.row-form input::placeholder
+{
+    font-size: 20px;
+    color: #2f89a5c7;
+    font-weight: 400;
+}
+
+input.enviarCadastro
+{
+    border: 0;
+    -webkit-appearance: none;
+    background: #2f89a5;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0.98;
+    transition: 0.6s cubic-bezier(0,0.6,0.35,1.21) transform, 0.2s ease opacity;
+}
+
+input.enviarLogin:hover 
+{
+    opacity: 1;
+    transform: translate(0, -10px);
+    transition: 1s;
+    background: #ffc700;
+    color: #2f89a5;
+    font-weight: bolder;
+}
+
+.campoUser,  .campoSenha, .campoConfirmSenha
+{
+    flex: 1;
+}

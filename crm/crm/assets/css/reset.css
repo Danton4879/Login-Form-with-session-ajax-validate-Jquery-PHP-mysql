@@ -1,0 +1,12 @@
+*
+{
+    padding: 0; margin: 0;box-sizing: border-box; font-family: 'Roboto';
+}
+nav, section
+{
+    padding-left: 150px;padding-right: 150px;
+}
+h3
+{
+    font-size: 24px; color: #51514d;font-weight: 800;margin-left: 30px;
+}
